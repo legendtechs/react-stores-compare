@@ -1,0 +1,27 @@
+.cont {
+    height: 60vh;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+        background-color: transparent;
+        // display: none;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: #889099;
+        border-radius: 4px;
+    }
+    &::-webkit-scrollbar-track-piece {
+        background-color: transparent;
+        border-radius: 0;
+    }
+}
+
+.footer {
+    display: flex;
+    height: 150px;
+    background-color: yellow;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
