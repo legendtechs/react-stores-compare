@@ -75,7 +75,7 @@
     "dependencies": {
         "babel-polyfill": "^6.26.0",
         "colors-cli": "^1.0.9",
-        "express": "^4.16.2",
+        "express": "^4.17.3",
         "fs": "^0.0.1-security",
         "immutable": "^3.8.2",
         "less": "^2.3.1",
